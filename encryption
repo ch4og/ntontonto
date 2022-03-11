@@ -1,0 +1,3 @@
+type=EXECVE msg=audit(1646482698.722:45866): argc=13 a0="openssl" a1="enc" a2="-aes-256-cbc" a3="-a" a4="-salt" a5="-in" a6="/var/www/html/22FLAG.txt" a7="-out" a8="/var/www/html/22FLAG.txt.encr" a9="-pass" a10="pass:F11F9260A1" a11="-iv" a12="0DBD22588849A96B84DFD36F7E6FA9D7"
+type=CWD msg=audit(1646482698.722:45866):  cwd="/var/www/html"
+type=PATH msg=audit(1646482698.722:45866): item=0 name="/usr/bin/openssl" inode=46476 dev=fe:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
